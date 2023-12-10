@@ -1,0 +1,46 @@
+Dream Diary
+Blog System README
+
+Link-  'http://localhost/20APSE4846/public/assets/home.php#'
+
+Welcome to the Dream Diary, a user-friendly platform for expressing and sharing your thoughts through captivating blog posts.
+
+- This website has features to login, signup , create blog post and view blog posts. 
+
+- Passwords are hashed and stored for enhanced security.
+
+- All the blog posts will be display in home page as cards with image, title and discription and after clicking on the card all the data related to seperate aricle  will be display on blog page. 
+
+- Additionally I Have inclueded about page and responsive navigation bar.
+
+Technologies
+
+    Frontend:
+        HTML
+        CSS
+        Bootstrap Library
+
+    Backend:
+        PHP
+
+    Database:
+        PHPMyAdmin with MySQL
+
+Setup Instructions
+
+Database Setup
+
+- I have created database blog_system. It has two tables users and posts. 
+- users table include id, username, email and password columns.
+- posts table has id,user_id, title, author, abstract, content, category and image_url. 
+- user_id is a foreign key connects posts to users table. 
+
+Image Handling
+
+-images uploaded by users are stored in the 'uploads' folder.
+-The image URL is then stored in the image_url column in the database.
+
+
+
+*** Make sure you have stable internet connection to use Bootstrap library.
+
